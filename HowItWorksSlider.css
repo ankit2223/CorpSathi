@@ -1,0 +1,61 @@
+.how-it-works-slider {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .slider {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .slide {
+    transition: all 0.5s ease;
+  }
+  
+  .nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #eee;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 50%;
+  }
+  
+  .nav.left {
+    left: -20px;
+  }
+  
+  .nav.right {
+    right: -20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  .cta-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bfc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
